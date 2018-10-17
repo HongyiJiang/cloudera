@@ -1,14 +1,79 @@
 # Before install CDH&Clouder amanager
-|physical slot|hostname|ip|roles|CentOS7.5_installed|disk|
-|-|-|-|-|
-|slot1|n1|10.66.27.61|CM-server,CM-agent|yes| |
-|slot2|n2|10.66.27.62|CM-agent|yes| |
-|slot3|n3|10.66.27.63|CM-agent|yes|2.5T via iscsi_server 10.66.27.41|
-|slot4|n4|10.66.27.64|CM-agent|yes|2.5T via iscsi_server 10.66.27.41|
-|slot7/8|n5|10.66.27.68|CM-agent|yes| |
-|slot11|n6|10.66.27.71|CM-agent|yes| |
-|slot12|n7|10.66.27.72|CM-agent|yes|2.5T via iscsi_server 10.66.27.43|
-|slot14|n8|10.66.27.74|CM-agent|yes|2.5T via iscsi_server 10.66.27.43|
+
+<table class="tg">
+  <tr>
+    <th class="tg-xldj">physical slot</th>
+    <th class="tg-0pky">hostname</th>
+    <th class="tg-0pky">ip</th>
+    <th class="tg-0pky">roles</th>
+    <th class="tg-0pky">CentOS7.5_installed</th>
+    <th class="tg-0pky">disk</th>
+  </tr>
+  <tr>
+    <td class="tg-0pky">slot1</td>
+    <td class="tg-0pky">n1</td>
+    <td class="tg-0pky">10.66.27.61</td>
+    <td class="tg-0pky">CM-server,CM-agent</td>
+    <td class="tg-0pky">yes</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">slot2</td>
+    <td class="tg-0pky">n2</td>
+    <td class="tg-0pky">10.66.27.62</td>
+    <td class="tg-0pky">CM-agent</td>
+    <td class="tg-0pky">yes</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">slot3</td>
+    <td class="tg-0pky">n3</td>
+    <td class="tg-0pky">10.66.27.63</td>
+    <td class="tg-0pky">CM-agent</td>
+    <td class="tg-0pky">yes</td>
+    <td class="tg-0pky">2.5T via iscsi_server 10.66.27.41</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">slot4</td>
+    <td class="tg-0pky">n4</td>
+    <td class="tg-0pky">10.66.27.64</td>
+    <td class="tg-0pky">CM-agent</td>
+    <td class="tg-0pky">yes</td>
+    <td class="tg-0pky">2.5T via iscsi_server 10.66.27.41</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">slot7/8</td>
+    <td class="tg-0pky">n5</td>
+    <td class="tg-0pky">10.66.27.68</td>
+    <td class="tg-0pky">CM-agent</td>
+    <td class="tg-0pky">yes</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">slot11</td>
+    <td class="tg-0pky">n6</td>
+    <td class="tg-0pky">10.66.27.71</td>
+    <td class="tg-0pky">CM-agent</td>
+    <td class="tg-0pky">yes</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">slot12</td>
+    <td class="tg-0pky">n7</td>
+    <td class="tg-0pky">10.66.27.72</td>
+    <td class="tg-0pky">CM-agent</td>
+    <td class="tg-0pky">yes</td>
+    <td class="tg-0pky">2.5T via iscsi_server 10.66.27.43</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">slot14</td>
+    <td class="tg-0pky">n8</td>
+    <td class="tg-0pky">10.66.27.74</td>
+    <td class="tg-0pky">CM-agent</td>
+    <td class="tg-0pky">yes</td>
+    <td class="tg-0pky">2.5T via iscsi_server 10.66.27.43</td>
+  </tr>
+</table>
 >network_device: enp4s0f2
 >
 >Gateway:10.66.27.1; DNS:10.66.27.18
