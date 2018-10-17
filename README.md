@@ -416,7 +416,7 @@ Figure 3. Inspect Hosts for Correctness
 
 ### Assign Roles
 <center>
-<img src="cloudera/roles.JPG" width="960" height="217" />
+<img src="https://raw.githubusercontent.com/HongyiJiang/cloudera/master/roles.JPG" width="960" height="217" />
 Figure 4. View Roles by Hosts
 </center>
 
