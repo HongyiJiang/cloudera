@@ -372,14 +372,17 @@ sudo systemctl start cloudera-scm-server
 sudo tail -f /var/log/cloudera-scm-server/cloudera-scm-server.log
 ```
 ## 5.Deploy CDH and Agents
+
 <center>
 <img src="https://raw.githubusercontent.com/HongyiJiang/cloudera/master/specify%20hosts.JPG"width="960" height="488.5"/>
 Figure 1. Specify Hosts
 </center>
+
 <center>
 <img src="https://raw.githubusercontent.com/HongyiJiang/cloudera/master/Inspect%20Hosts.JPG"width="960" height="488.5"/>
 Figure 2. Inspect Hosts for Correctness
 </center>
+
 ### Fix the warnings and run validations again
 ```shell
 #Fix multiple time zones are used in cluster. 
@@ -403,7 +406,9 @@ yum -y install python-pip
 yum clean all
 pip install --upgrade psycopg2
 ```
+
 ### Run the Validation again
+
 <center>
 <img src="https://raw.githubusercontent.com/HongyiJiang/cloudera/master/validation.JPG"width="960" height="488.5"/>
 Figure 3. Inspect Hosts for Correctness
