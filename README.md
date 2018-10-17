@@ -377,7 +377,7 @@ sudo tail -f /var/log/cloudera-scm-server/cloudera-scm-server.log
 Figure 1. Specify Hosts
 </center>
 <center>
-<img src="Inspect Hosts.jpg"width="960" height="488.5"/>
+<img src="https://raw.githubusercontent.com/HongyiJiang/cloudera/master/Inspect%20Hosts.JPG"width="960" height="488.5"/>
 Figure 2. Inspect Hosts for Correctness
 </center>
 ### Fix the warnings and run validations again
@@ -405,16 +405,15 @@ pip install --upgrade psycopg2
 ```
 ### Run the Validation again
 <center>
-<img src="validation.jpg"width="960" height="488.5"/>
+<img src="https://raw.githubusercontent.com/HongyiJiang/cloudera/master/validation.JPG"width="960" height="488.5"/>
 Figure 3. Inspect Hosts for Correctness
 </center>
+
 ### Assign Roles
 <center>
-<img src="roles.jpg"width="960" height="217" />
+<img src="cloudera/roles.JPG" width="960" height="217" />
 Figure 4. View Roles by Hosts
 </center>
-
-
 
 # Problems
 ## 1.JobHistory Server failed to start ,user hdfs not availble
