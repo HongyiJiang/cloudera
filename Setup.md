@@ -74,9 +74,11 @@
     <td class="tg-0pky">2.5T via iscsi_server 10.66.27.43</td>
   </tr>
 </table>
->network_device: enp4s0f2
->
->Gateway:10.66.27.1; DNS:10.66.27.18
+network_device: enp4s0f2
+
+Gateway:10.66.27.1; DNS:10.66.27.18
+
+default account:user:root;password qsmwwy123
 
 ## 1. set hostname
 Use command: hostnamectl set-hostname your_hostname 
