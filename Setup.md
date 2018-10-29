@@ -75,17 +75,15 @@
   </tr>
 </table>
 
-network_device: enp4s0f2
+- [x] network_device: enp4s0f2
 
-Gateway:10.66.27.1; DNS:10.66.27.18
+- [x] Gateway:10.66.27.1; DNS:10.66.27.18
 
-system default account: 
+- [x] system default account: user:root; password:qsmwwy123
 
-user:root; password:qsmwwy123
+- [x] Cloudera Web Console:[http://10.66.27.61:7180/]
 
-Cloudera Web Console:[http://10.66.27.61:7180/]
-
-default acount: admin/admin
+- [x] default acount: admin/admin
 ## 1. set hostname
 Use command: hostnamectl set-hostname your_hostname 
 ```shell
