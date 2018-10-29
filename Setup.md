@@ -31,7 +31,7 @@
     <td class="tg-0pky">10.66.27.63</td>
     <td class="tg-0pky">CM-agent</td>
     <td class="tg-0pky">yes</td>
-    <td class="tg-0pky">2.5T via iscsi_server 10.66.27.41</td>
+    <td class="tg-0pky"></td>
   </tr>
   <tr>
     <td class="tg-0pky">slot4</td>
@@ -39,7 +39,7 @@
     <td class="tg-0pky">10.66.27.64</td>
     <td class="tg-0pky">CM-agent</td>
     <td class="tg-0pky">yes</td>
-    <td class="tg-0pky">2.5T via iscsi_server 10.66.27.41</td>
+    <td class="tg-0pky"></td>
   </tr>
   <tr>
     <td class="tg-0pky">slot7/8</td>
@@ -47,7 +47,7 @@
     <td class="tg-0pky">10.66.27.68</td>
     <td class="tg-0pky">CM-agent</td>
     <td class="tg-0pky">yes</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">2.5T via iscsi_server 10.66.27.41</td>
   </tr>
   <tr>
     <td class="tg-0pky">slot11</td>
@@ -55,7 +55,7 @@
     <td class="tg-0pky">10.66.27.71</td>
     <td class="tg-0pky">CM-agent</td>
     <td class="tg-0pky">yes</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">2.5T via iscsi_server 10.66.27.41</td>
   </tr>
   <tr>
     <td class="tg-0pky">slot12</td>
