@@ -79,8 +79,11 @@ network_device: enp4s0f2
 
 Gateway:10.66.27.1; DNS:10.66.27.18
 
-default account:user:root;password qsmwwy123
+default account: user:root; password:qsmwwy123
 
+Cloudera Web Console:[web_console](10.66.27.61:7180)
+
+default acount: admin/admin
 ## 1. set hostname
 Use command: hostnamectl set-hostname your_hostname 
 ```shell
