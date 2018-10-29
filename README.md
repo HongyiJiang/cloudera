@@ -1,2 +1,2 @@
 # cloudera
-[setup](./Setup.md)
+[setup](./SETUP.md)
